@@ -1,0 +1,1294 @@
+/* Color of the background of the webpage */
+body{
+    background-color: #78BA59;
+}
+/* UNIVERSAL MENU BAR FOR ALL PAGES */
+/* the below methods are all part of the menu option/characters on all web page */
+
+    
+.menusquare{
+    flex-direction: column;   
+    display: flex;
+    width: 314px;
+    height: 889px;
+    justify-content:space-evenly;
+    background: #9CFFED;
+    border-radius: 100px;
+    }
+.triangle {
+    position: relative;
+    left: -230px;
+    top: -20px;
+     }
+    
+.menu-text{
+    font-size: 50px;
+    font-family: "Loved by the King"
+}
+
+.menu-row{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menutitle{
+    /* position: absolute;
+    width: 285px; */
+    height: 40px;
+    /* left: 15px;
+    top: 0px; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 136px;
+    
+    color: #000000;
+    }
+    
+#pillowsmain{
+        position: absolute;
+        width: 144px;
+        height: 102px;
+        left: 86px;
+        top: 305px;
+        font-family: "Loved by the King";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 86px;
+        text-align: center;
+        color: #000000;
+    }
+    
+#discountsmain{
+        position: absolute;
+        width: 144px;
+        height: 102px;
+        left: 86px;
+        top: 415px;
+        font-family: "Loved by the King";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 86px;
+        text-align: center;
+        color: #000000;
+    }
+    /* Only for Product Browsing Page */
+#DiscountApplied{
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: center;
+        width: 174.49px;
+        height: 31.63px;
+        left: 130px;
+        top: 150px;
+
+        color: #FFFFFF;
+
+        position: absolute;
+        width: 209.18px;
+        height: 50px;
+        left: 130px;
+        top: 620px;
+
+        background: #770000;
+        border-radius: 100px;
+
+    }
+    
+#shoppingmain{
+        position: absolute;
+        width: 144px;
+        height: 102px;
+        left: 86px;
+        top: 528px;
+        font-family: "Loved by the King";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 80px;
+        text-align: center;
+        color: #000000;
+    }
+    
+#aboutusmain{
+        position: absolute;
+        width: 144px;
+        height: 102px;
+        left: 86px;
+        top: 700px;
+        font-family: "Loved by the King";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 86px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* HOME PAGE */
+/* the main title on the home page */
+.MainTitle{
+    position: absolute;
+    width: 497px;
+    height: 136px;
+    left: 250px;
+    top: 82px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 136px;
+    color: #000000;
+
+}
+.titlesquare{
+    position: absolute;
+    width: 1115px;
+    height: 484px;
+    left: 325px;
+    top: 0px;
+    background: #3FFFF3;
+    }
+/* the tag line on the home page */
+.tagline{
+    position: absolute;
+    width: 792px;
+    height: 75px;
+    left: 250px;
+    top: 270px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+
+}
+/* the discount section on the home page */
+.sales{
+    position: absolute;
+    width: 539px;
+    height: 442px;
+    left: 300px;
+    top: 0px;
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 800%;
+    line-height: 190px;
+    text-align: center;
+
+color: #FFFFFF; 
+}
+.discountsquare{
+    position: absolute;
+    width: 1115px;
+    height: 535px;
+    left: 325px;
+    top: 484px;
+    
+    background: #FF4848;
+    }
+
+
+    /* PRODUCT BROWING PAGE */
+
+
+/* Universal Header */
+.Mainheader{
+    position: relative;
+    width: 350px;
+    height: 295px;
+    left: 400px;
+    top: -150px;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 345px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.titlesquareproductpage{
+    position: absolute;
+    width: 1095px;
+    height: 306px;
+    left: 341px;
+    top: -17px;
+    background: #FF4848;
+
+}
+.headersquare{
+    position: absolute;
+    width: 1095px;
+    height: 306px;
+    left: 341px;
+    top: 0px;
+
+    background: #FF4848;
+}
+
+/* Main body of items page */
+
+.listofallitems{
+    position: absolute;
+    width: 1096px;
+    height: 705px;
+    left: 340px;
+    top: 300px;
+    background: #273454;
+}
+/* Couchpillowtext */
+
+#standardcouchpillow{
+    /* width: 243px;
+    height: 109px;
+    left: 100px; */
+    display:flex;
+    flex-direction:row;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Couchpillow image */
+.standardcouchpillowphoto{
+    position: absolute;
+    width: 173px;
+    height: 152px;
+    left: 300px;
+    top: 10px;
+}
+/* select a size for couch pillow */
+#selectasize1{
+    position: relative;
+    width: 122px;
+    height: 26px;
+    left: 500px;
+    top: -152px; 
+    background: #579B00;
+    border-radius: 100px;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+} 
+
+
+.size{
+justify-content: space-evenly;
+}
+/* select a color for couch pillow */
+ #selectacolor1
+{
+position: absolute;
+width: 122px;
+height: 26px;
+left: 500px;
+top: 100px;
+
+background: #579B00;
+border-radius: 100px;
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+color: #FFFFFF;
+
+text-align: center;
+} 
+.color{
+    justify-content: space-evenly;
+}
+/* select red for couch pillow */
+#red1{
+position: absolute;
+width: 58px;
+height: 43px;
+left: 670px;
+top: 100px;
+
+background: #FFFFFF;
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 43px;
+text-align: center;
+
+color: #FF0000;
+}
+/* select blue for couch pillow */
+#blue1{
+position: absolute;
+width: 58px;
+height: 43px;
+left: 760px;
+top: 100px;
+
+background: #FFFFFF;
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 43px;
+text-align: center;
+
+color: #00A3FF;
+}
+/* select green for couch pillow */
+#green1{
+position: absolute;
+width: 58px;
+height: 43px;
+left: 850px;
+top: 100px;
+background: #FFFFFF;
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 43px;
+text-align: center;
+
+color: #2D971C;
+
+}
+/* select to learn more for couch pillow */
+#options1
+{
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+        
+    text-align: center;
+        
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    left: 960px;
+    top: 130px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+/* select smallfor couch pillow */
+#small1{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 670px;
+    top: 16px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+/* select medium for couch pillow */
+#medium1{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 760px;
+    top: 16px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    
+}
+/* select large for couch pillow */
+#large1{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 850px;
+    top: 16px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+
+}
+/* The same is done for all the pillows */
+#bedpillow{
+    position: absolute;
+    width: 243px;
+    height: 109px;
+    left: 20px;
+    top: 200px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.bedpillowphoto{
+    position: absolute;
+    width: 173px;
+    height: 152px;
+    left: 300px;
+    top: 185px;
+}  
+#selectasize2{
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    left: 500px;
+    top: 190px;
+    
+    background: #579B00;
+    border-radius: 100px;
+    
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    
+    text-align: center;
+    }
+    
+#selectacolor2
+    {
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    left: 500px;
+    top: 280px;
+    background: #579B00;
+    border-radius: 100px;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+#red2{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 670px;
+    top: 275px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+
+color: #FF0000;
+    }
+#blue2{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 760px;
+    top: 275px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+
+color: #00A3FF;
+    }
+
+#green2{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 850px;
+    top: 275px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #2D971C;
+
+
+    }
+
+    #small2{
+        position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 670px;
+        top: 191px;
+        background: #FFFFFF;
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+        color: #000000;
+        }
+        
+     #medium2{
+        position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 760px;
+        top: 191px;
+        background: #FFFFFF;
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+        color: #000000;
+            
+        }
+        
+    #large2{
+        position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 850px;
+        top: 191px;
+        background: #FFFFFF;
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+        color: #000000;
+        
+        }
+#options2{
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+       text-align: center;
+       color: #FFFFFF;
+       position: absolute;
+       width: 122px;
+       height: 26px;
+       left: 960px;
+       top: 305px;
+       border: 1px solid #000000;
+       box-sizing: border-box;
+       border-radius: 100px;        
+    }
+
+
+
+#roundpillow{
+    position: absolute;
+    width: 243px;
+    height: 109px;
+    left: 20px;
+    top: 380px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.roundpillowphoto{
+    position: absolute;
+    width: 173px;
+    height: 152px;
+    left: 300px;
+    top: 360px;
+}
+#selectasize3{
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    left: 500px;
+    top: 370px;
+    background: #579B00;
+    border-radius: 100px;
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+    
+#selectacolor3
+    {
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    left: 500px;
+    top: 460px;  
+    background: #579B00;
+    border-radius: 100px;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF; 
+    text-align: center;
+    }
+#red3{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 670px;
+    top: 457px;
+     background: #FFFFFF;
+     font-family: Loved by the King;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 25px;
+     line-height: 43px;
+     text-align: center;
+    
+    color: #FF0000;
+    }
+#blue3{
+     position: absolute;
+     width: 58px;
+     height: 43px;
+     left: 760px;
+     top: 457px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #00A3FF;
+        }
+    
+    #green3{
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    left: 850px;
+    top: 457px;
+    background: #FFFFFF;
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #2D971C;
+    
+    
+        }
+    #small3
+    {
+        position: absolute;
+         width: 58px;
+         height: 43px;
+         left: 670px;
+         top: 366px;
+         background: #FFFFFF;
+         font-family: Loved by the King;
+         font-style: normal;
+        font-weight: normal;
+         font-size: 25px;
+         line-height: 43px;
+        text-align: center;
+        color: #000000;
+         } 
+            
+    #medium3{
+            position: absolute;
+            width: 58px;
+            height: 43px;
+            left: 760px;
+            top: 366px;
+            background: #FFFFFF;
+            font-family: Loved by the King;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 43px;
+            text-align: center;
+            color: #000000;
+                
+            }
+            
+     #large3{
+            position: absolute;
+            width: 58px;
+            height: 43px;
+            left: 850px;
+            top: 366px;
+            background: #FFFFFF;
+            font-family: Loved by the King;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 43px;
+            text-align: center;
+            color: #000000;
+            }
+
+     #options3{
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+       text-align: center;
+       color: #FFFFFF;
+       position: absolute;
+       width: 122px;
+       height: 26px;
+       left: 960px;
+       top: 480px;
+       border: 1px solid #000000;
+       box-sizing: border-box;
+       border-radius: 100px;     
+        }
+
+
+#floorpoofpillow{
+    position: absolute;
+    width: 243px;
+    height: 109px;
+    left: 20px;
+    top: 520px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.floorpoofpillowphoto{
+    position: absolute;
+    width: 173px;
+    height: 152px;
+    left: 300px;
+    top: 535px;
+
+}
+
+#selectasize4{
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    left: 500px;
+    top: 550px;
+    
+    background: #579B00;
+    border-radius: 100px;
+    
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    
+    text-align: center;
+    }
+    
+#selectacolor4{
+        position: absolute;
+        width: 122px;
+        height: 26px;
+        left: 500px;
+        top: 650px;
+        
+        background: #579B00;
+        border-radius: 100px;
+        
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 35px;
+        color: #FFFFFF;
+        
+        text-align: center;
+    }
+#red4{
+        position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 670px;
+        top: 635px;
+
+        background: #FFFFFF;
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+
+    color: #FF0000;
+    }
+    #blue4{
+    position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 760px;
+        top: 635px;
+    
+        background: #FFFFFF;
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+    
+    color: #00A3FF;
+    }
+
+    #green4{
+        position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 850px;
+        top: 635px;
+        background: #FFFFFF;
+    
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+    
+        color: #2D971C;
+    
+
+    }
+
+    #small4{
+        position: absolute;
+        width: 58px;
+        height: 43px;
+        left: 670px;
+        top: 551px;
+        background: #FFFFFF;
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+        color: #000000;
+        }
+
+    #medium4{
+         position: absolute;
+         width: 58px;
+         height: 43px;
+         left: 760px;
+         top: 551px;
+         background: #FFFFFF;
+         font-family: Loved by the King;
+         font-style: normal;
+          font-weight: normal;
+         font-size: 25px;
+         line-height: 43px;
+         text-align: center;
+         color: #000000;
+         }
+    #large4{
+        position: absolute;
+         width: 58px;
+         height: 43px;
+         left: 850px;
+         top: 551px;
+         background: #FFFFFF;
+         font-family: Loved by the King;
+         font-style: normal;
+          font-weight: normal;
+         font-size: 25px;
+         line-height: 43px;
+         text-align: center;
+         color: #000000;
+         }
+        #options4{
+         font-family: Loved by the King;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        width: 122px;
+        height: 26px;
+        left: 960px;
+        top: 655px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 100px;     
+         } 
+
+/* Final Product Page close up on a standard couch pillow */
+    
+.maintext{
+    display: flex;  
+    flex-direction: column
+    }
+            
+.sizeandcolor{
+     display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    }
+         
+.standardcouchpillowphoto1{
+     position: absolute;
+     width: 371px;
+     height: 326px;
+     left: 351px;
+     top: 302px;
+    }
+ .standardcouchpillowFinal{
+    position: absolute;
+    width: 359.11px;
+    height: 490.35px;
+    left: 370px;
+    top: 590px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 81.3856px;
+    line-height: 111px;
+    text-align: center;
+
+    color: #FFFFFF;
+        }
+    #selectasize5{
+        position: absolute;
+        width: 352.06px;
+        height: 75.03px;
+        left: 730px;
+        top: 360px;
+        
+        background: #579B00;
+        border-radius: 288.571px;
+        position: absolute;
+        
+        font-family: Loved by the King;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.7143px;
+        line-height: 100px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+#small5{
+        position: absolute;
+     width: 151.32px;
+     height: 112px;
+     left: 750px;
+     top: 456px;
+    background: #FFFFFF;
+
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64.5349px;
+    line-height: 111px;
+    text-align: center;
+
+        color: #000000;
+        }   
+
+#medium5{
+background: #FFFFFF;
+position: absolute;
+width: 151.32px;
+height: 112.17px;
+left: 1000px;
+top: 456px;
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 64.5349px;
+line-height: 113px;
+text-align: center;
+
+color: #000000;
+    }   
+
+    
+#large5{
+    position: absolute;
+    width: 151.32px;
+    height: 112px;
+    left: 1250px;
+    top: 456px;
+       
+   background: #FFFFFF;
+
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 64.5349px;
+line-height: 111px;
+text-align: center;
+    
+    color: #000000;
+
+
+
+}
+ #selectacolor5{
+    /* position: absolute;
+    width: 352.06px;
+    height: 75.03px;
+    left: 630px;
+    top: 637.43px; */
+    
+    background: #579B00;
+    border-radius: 288.571px;
+    position: absolute;
+    width: 352.06px;
+    height: 75.03px;
+    left: 730px;
+    top: 637px;
+    
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57.7143px;
+    line-height: 100px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    }
+
+    #red5{
+    position: absolute;
+     width: 151.32px;
+     height: 112px;
+     left: 750px;
+     top: 733px;
+        
+    background: #FFFFFF;
+
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 64.5349px;
+line-height: 111px;
+text-align: center;
+
+color: #FF0000;
+
+}
+
+#blue5{
+    position: absolute;
+    width: 151.32px;
+    height: 112px;
+    left: 1000px;
+    top: 733px;
+       
+   background: #FFFFFF;
+
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 64.5349px;
+line-height: 111px;
+text-align: center;
+
+color: #00A3FF;
+ }
+
+#green5{
+    position: absolute;
+    width: 151.32px;
+    height: 112px;
+    left: 1250px;
+    top: 733px;
+       
+   background: #FFFFFF;
+
+
+font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 64.5349px;
+line-height: 111px;
+text-align: center;
+
+color: #2D971C;
+    }
+
+ #options5{
+
+    position: absolute;
+    width: 330.12px;
+    height: 68.88px;
+    left: 1093px;
+    top: 887.25px;
+    background: #008A58;
+    border: 2.375px solid #000000;
+    box-sizing: border-box;
+    border-radius: 237.5px;
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47.5px;
+    line-height: 82px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* About Us Page */
+
+.aboutusbox{
+
+position: absolute;
+width: 1249px;
+height: 634px;
+left: 78px;
+top: 195px;
+    
+background: #FFFFFF;
+border-radius: 100px;
+}
+
+.aboutustitle{
+    position: relative;
+    /* width: 192px; */
+    height: 100px;
+    left: 490px;
+    top: -25px;
+    
+    font-family: Loved by the King;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 121px;
+
+
+}
+
+.aboutustext{
+position: absolute;
+width: 1040px;
+height: 458px;
+left: 113px;
+top: 150px;
+
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 35px;
+
+color: #000000;
+} 
+
+.aboutustitlebox{
+position: absolute;
+width: 1009px;
+height: 93px;
+left: 122px;
+top: 65px;
+
+    color: #000000;
+    
+    border: 1px solid #000000;
+}
+
+
+/* Change the link color */
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  /* Code Idea for changing link colors from https://www.w3schools.com/html/html_links_colors.asp */
+
+
+    
