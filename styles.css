@@ -208,12 +208,12 @@ color: #FFFFFF;
     width: 350px;
     height: 295px;
     left: 400px;
-    top: -150px;
-    font-family: Loved by the King;
+    top: -114px;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
-    font-size: 200px;
-    line-height: 345px;
+    font-size: 120px;
+    line-height: 400px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -279,7 +279,7 @@ color: #FFFFFF;
     top: -152px; 
     background: #579B00;
     border-radius: 100px;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -304,7 +304,7 @@ top: 100px;
 background: #579B00;
 border-radius: 100px;
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -325,7 +325,7 @@ left: 670px;
 top: 100px;
 
 background: #FFFFFF;
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -343,7 +343,7 @@ left: 760px;
 top: 100px;
 
 background: #FFFFFF;
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -361,7 +361,7 @@ left: 850px;
 top: 100px;
 background: #FFFFFF;
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -374,7 +374,7 @@ color: #2D971C;
 /* select to learn more for couch pillow */
 #options1
 {
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -402,7 +402,7 @@ color: #2D971C;
     left: 670px;
     top: 16px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -418,7 +418,7 @@ color: #2D971C;
     left: 760px;
     top: 16px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -435,7 +435,7 @@ color: #2D971C;
     left: 850px;
     top: 16px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -528,7 +528,7 @@ color: #FF0000;
     left: 760px;
     top: 275px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -545,7 +545,7 @@ color: #00A3FF;
     left: 850px;
     top: 275px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -563,7 +563,7 @@ color: #00A3FF;
         left: 670px;
         top: 191px;
         background: #FFFFFF;
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -579,7 +579,7 @@ color: #00A3FF;
         left: 760px;
         top: 191px;
         background: #FFFFFF;
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -596,7 +596,7 @@ color: #00A3FF;
         left: 850px;
         top: 191px;
         background: #FFFFFF;
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -606,7 +606,7 @@ color: #00A3FF;
         
         }
 #options2{
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -687,7 +687,7 @@ color: #00A3FF;
     left: 670px;
     top: 457px;
      background: #FFFFFF;
-     font-family: Loved by the King;
+     font-family: "Loved by the King";
      font-style: normal;
      font-weight: normal;
      font-size: 25px;
@@ -703,7 +703,7 @@ color: #00A3FF;
      left: 760px;
      top: 457px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -719,7 +719,7 @@ color: #00A3FF;
     left: 850px;
     top: 457px;
     background: #FFFFFF;
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -738,7 +738,7 @@ color: #00A3FF;
          left: 670px;
          top: 366px;
          background: #FFFFFF;
-         font-family: Loved by the King;
+         font-family: "Loved by the King";
          font-style: normal;
         font-weight: normal;
          font-size: 25px;
@@ -754,7 +754,7 @@ color: #00A3FF;
             left: 760px;
             top: 366px;
             background: #FFFFFF;
-            font-family: Loved by the King;
+            font-family: "Loved by the King";
             font-style: normal;
             font-weight: normal;
             font-size: 25px;
@@ -771,7 +771,7 @@ color: #00A3FF;
             left: 850px;
             top: 366px;
             background: #FFFFFF;
-            font-family: Loved by the King;
+            font-family: "Loved by the King";
             font-style: normal;
             font-weight: normal;
             font-size: 25px;
@@ -781,7 +781,7 @@ color: #00A3FF;
             }
 
      #options3{
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -806,7 +806,7 @@ color: #00A3FF;
     left: 20px;
     top: 520px;
 
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -833,7 +833,7 @@ color: #00A3FF;
     background: #579B00;
     border-radius: 100px;
     
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -853,7 +853,7 @@ color: #00A3FF;
         background: #579B00;
         border-radius: 100px;
         
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -870,7 +870,7 @@ color: #00A3FF;
         top: 635px;
 
         background: #FFFFFF;
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -887,7 +887,7 @@ color: #00A3FF;
         top: 635px;
     
         background: #FFFFFF;
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -905,7 +905,7 @@ color: #00A3FF;
         top: 635px;
         background: #FFFFFF;
     
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -924,7 +924,7 @@ color: #00A3FF;
         left: 670px;
         top: 551px;
         background: #FFFFFF;
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 25px;
@@ -940,7 +940,7 @@ color: #00A3FF;
          left: 760px;
          top: 551px;
          background: #FFFFFF;
-         font-family: Loved by the King;
+         font-family: "Loved by the King";
          font-style: normal;
           font-weight: normal;
          font-size: 25px;
@@ -955,7 +955,7 @@ color: #00A3FF;
          left: 850px;
          top: 551px;
          background: #FFFFFF;
-         font-family: Loved by the King;
+         font-family: "Loved by the King";
          font-style: normal;
           font-weight: normal;
          font-size: 25px;
@@ -964,7 +964,7 @@ color: #00A3FF;
          color: #000000;
          }
         #options4{
-         font-family: Loved by the King;
+         font-family: "Loved by the King";
          font-style: normal;
          font-weight: normal;
          font-size: 20px;
@@ -998,8 +998,8 @@ color: #00A3FF;
      position: absolute;
      width: 371px;
      height: 326px;
-     left: 351px;
-     top: 302px;
+     left: 340px;
+     top: 300px;
     }
  .standardcouchpillowFinal{
     position: absolute;
@@ -1028,7 +1028,7 @@ color: #00A3FF;
         border-radius: 288.571px;
         position: absolute;
         
-        font-family: Loved by the King;
+        font-family: "Loved by the King";
         font-style: normal;
         font-weight: normal;
         font-size: 57.7143px;
@@ -1038,7 +1038,7 @@ color: #00A3FF;
         color: #FFFFFF;
     }
 #small5{
-        position: absolute;
+    position: absolute;
      width: 151.32px;
      height: 112px;
      left: 750px;
@@ -1063,7 +1063,7 @@ height: 112.17px;
 left: 1000px;
 top: 456px;
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 64.5349px;
@@ -1084,7 +1084,7 @@ color: #000000;
    background: #FFFFFF;
 
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 64.5349px;
@@ -1111,7 +1111,7 @@ text-align: center;
     left: 730px;
     top: 637px;
     
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 57.7143px;
@@ -1132,7 +1132,7 @@ text-align: center;
     background: #FFFFFF;
 
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 64.5349px;
@@ -1153,7 +1153,7 @@ color: #FF0000;
    background: #FFFFFF;
 
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 64.5349px;
@@ -1173,7 +1173,7 @@ color: #00A3FF;
    background: #FFFFFF;
 
 
-font-family: Loved by the King;
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 64.5349px;
@@ -1203,6 +1203,138 @@ color: #2D971C;
 
     color: #FFFFFF;
 }
+#AddtoCart{
+
+background: #00FFA3;
+border: 2.375px solid #000000;
+box-sizing: border-box;
+border-radius: 237.5px;
+position: absolute;
+width: 215px;
+height: 70px;
+left: 832px;
+top: 890px;
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 90px;
+text-align: center;
+color: #000000;
+}
+
+#Notification{
+    position: absolute;
+    background: #D50000;
+    position: absolute;
+    width: 30px;
+    height: 31px;
+    left: 1025px;
+    top: 915px;
+    border-radius: 100%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity:0%;
+
+}
+
+.changequantity{
+position: absolute;
+width: 228px;
+height: 90px;
+left: 1208px;
+top: 300px;
+
+background: #39D4B8;
+}
+
+#changequantitytext{
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 86px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.number{
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 86px;
+text-align: center;
+top: 300px;
+
+}
+.addorsubtract{
+
+position: absolute;
+width: 155px;
+height: 35px;
+left: 1258px;
+top: 390px;
+
+background: #39D4B8;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 100px;
+}
+#plus{
+position: absolute;
+width: 21px;
+left: 95px;
+top: -16px;
+
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 69px;
+/* identical to box height */
+
+text-align: center;
+
+}
+
+#vl2{
+
+position: absolute;
+width: 34px;
+height: 0px;
+left: 60px;
+top: 16px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+}
+
+#minus{
+
+position: absolute;
+width: 21px;
+left: 35px;
+top: -16px;
+
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 69px;
+/* identical to box height */
+
+text-align: center;
+
+}
+
 
 /* About Us Page */
 
@@ -1225,7 +1357,7 @@ border-radius: 100px;
     left: 490px;
     top: -25px;
     
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 70px;
@@ -1272,7 +1404,7 @@ a:link {
   }
   
   a:visited {
-    color: orangered;
+    color: #FFA500;
     background-color: transparent;
     text-decoration: none;
   }
@@ -1291,4 +1423,207 @@ a:link {
   /* Code Idea for changing link colors from https://www.w3schools.com/html/html_links_colors.asp */
 
 
+    /* Shopping Cart   */
+
+  .shoppingcarttext
+  {
+    position: absolute;
+    width: 1095px;
+    height: 640px;
+    left: 341px;
+    top: 305px;
+    background: #FFFFFF;
+  }
+
+  #header{
+    position: absolute;
+    width: 285px;
+    height: 138px;
+    left: 140px;
+    top: 80px;
     
+    font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 138px;
+    text-align: center;
+    color: #000000;
+  }
+
+  #sizesquare{
+    position: absolute;
+    width: 174px;
+    height: 129px;
+    left: 42px;
+    top: 230px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    
+    left: 42px;
+    top: 250px;
+    /* font-family: Loved by the King;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000; */
+  }
+  #sizetext{
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50.1395px;
+    /* line-height: 49px; */
+    text-align: center;
+    color: #000000;
+  }
+
+  #colorsquare{
+    position: absolute;
+    width: 174px;
+    height: 129px;
+    left: 312px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+
+  }
+#colortext{
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50.1395px;
+    /* line-height: 49px; */
+    text-align: center;
+    color: #FF0000;
+  }
+
+  .greenbutton{
+ 
+    background: #579B00;
+    border-radius: 61.959px;
+    position: absolute;
+    width: 281px;
+    height: 58px;
+    left: 135px;
+    top: 450px;
+    
+    font-family: "loved by the king";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #000000;
+  }
+  #greenbuttontext{
+    font-family: "loved by the king";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .vl
+  {
+    border-left: 6px Solid black;
+    height: 640px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  #pricetext
+  
+  {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 571px;
+    top: 101px;
+    padding-left: 76px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+    border-bottom: 6px Solid black;
+  }
+  
+  #pricetextstrikethrough
+{
+    text-decoration: line-through;
+}
+
+#horizontal_line{
+    border: 5px solid black;
+}
+
+.pillowinformation
+{
+    background-color: black;
+}
+
+#totalpricetext
+{
+    position: absolute;
+    width: 398px;
+    height: 68px;
+    left: 650px;
+    top: 304px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 68px;
+}
+
+#purchasebutton
+{
+position: absolute;
+width: 150px;
+height: 73px;
+left: 945px;
+top: 566px;
+background: #F53030;
+
+font-family: "Loved by the King";
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 86px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#pricetext span{
+    margin-left: 70px;
+}
+
+#totalpricetext span{
+    margin-left: 70px;
+}
+
+.buttondisabled{
+    opacity: 0.2;
+}
+
+.notificationdisabled{
+    opacity: 0;
+}
+
+
+
