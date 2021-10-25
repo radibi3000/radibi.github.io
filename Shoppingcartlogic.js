@@ -1,5 +1,7 @@
 // Variable to establish quantity. 
 let quantity = 1; 
+let color = 0;
+
 
 // Below functions, hardcode help with selecting items, on the purchase page. Changing the color and size and making sure, t
 // that only one color/size can be selected at once. 
@@ -91,6 +93,7 @@ function decreaseQuantity(){
 // Populated your cart 
 function cartNotification()
 {
+    if(document.getElementsByClassName('sizeandcolor').click && document.getElementsByClassName())
     document.getElementById("Notification").style.opacity = "100";
 
     if(quantity>1)
@@ -99,4 +102,6 @@ function cartNotification()
     }
 
 }
+
+
 
