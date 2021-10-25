@@ -1097,12 +1097,6 @@ text-align: center;
 
 }
  #selectacolor5{
-    /* position: absolute;
-    width: 352.06px;
-    height: 75.03px;
-    left: 630px;
-    top: 637.43px; */
-    
     background: #579B00;
     border-radius: 288.571px;
     position: absolute;
@@ -1351,13 +1345,12 @@ border-radius: 100px;
 }
 
 .aboutustitle{
-    position: relative;
-    /* width: 192px; */
-    height: 100px;
-    left: 490px;
-    top: -25px;
+position: relative;
+height: 100px;
+left: 490px;
+top: -25px;
     
-    font-family: "Loved by the King";
+font-family: "Loved by the King";
 font-style: normal;
 font-weight: normal;
 font-size: 70px;
@@ -1442,7 +1435,7 @@ a:link {
     left: 140px;
     top: 80px;
     
-    font-family: Loved by the King;
+    font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 80px;
@@ -1464,20 +1457,12 @@ a:link {
     
     left: 42px;
     top: 250px;
-    /* font-family: Loved by the King;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 52px;
-    text-align: center;
-    color: #000000; */
   }
   #sizetext{
     font-family: "Loved by the King";
     font-style: normal;
     font-weight: normal;
     font-size: 50.1395px;
-    /* line-height: 49px; */
     text-align: center;
     color: #000000;
   }
@@ -1531,8 +1516,8 @@ a:link {
     line-height: 60px;
     text-align: center;
   }
-
-  .vl
+/* Vertical line */
+  .vl 
   {
     border-left: 6px Solid black;
     height: 640px;
@@ -1543,7 +1528,7 @@ a:link {
   }
 
   #pricetext
-  
+
   {
     position: absolute;
     width: 420px;
@@ -1565,7 +1550,8 @@ a:link {
     text-decoration: line-through;
 }
 
-#horizontal_line{
+#horizontal_line
+{
     border: 5px solid black;
 }
 
@@ -1616,11 +1602,11 @@ color: #FFFFFF;
 #totalpricetext span{
     margin-left: 70px;
 }
-
+/* low opacity button  */
 .buttondisabled{
     opacity: 0.2;
 }
-
+/* Removed button */
 .notificationdisabled{
     opacity: 0;
 }
