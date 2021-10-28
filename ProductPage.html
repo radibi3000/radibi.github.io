@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href = "styles.css">
-  <script src="Shoppingcartlogic.js"></script>
+  
   <title>Product  Page</title>
 </head>
 <body>
@@ -65,18 +65,20 @@
 <!-- List of size and colors -->
 <div class="sizeandcolor">
   <p id="selectasize5"><strong>Select a size</strong></p>
-  <p onclick="redToyellow()" id="red5">Red</p>
-  <p onclick="blueToyellow()" id="blue5">Blue</p>
-  <p onclick="greenToyellow()" id="green5">Green</p>
+  <p onclick="toNewColor(this.id)" id="red5">Red</p>
+  <p onclick="toNewColor(this.id)" id="blue5">Blue</p>
+  <p onclick="toNewColor(this.id)" id="green5">Green</p>
   <p id="selectacolor5"><strong>Select a color</strong></p>
-  <p onclick="smallToyellow()" id="small5">Small</p>
-  <p onclick="mediumToyellow()" id="medium5">Medium</p>
-  <p onclick="largeToyellow()" id="large5">Large</p>
+  <p onclick="toNewSize(this.id)" id="small5">Small</p>
+  <p onclick="toNewSize(this.id)" id="medium5">Medium</p>
+  <p onclick="toNewSize(this.id)"id="large5">Large</p>
   <p id="options5"> <a href="./Shopping cart.html"> 
     View Shopping Cart 
   </a> 
 </p>
-  <p onclick="cartNotification()" id="AddtoCart"> Add to Cart </p>
+  
+
+<p id="AddtoCart"> Add to Cart </p>
   <p id = "Notification"> 1 </p>
 
 
@@ -102,6 +104,6 @@
 
 
 
-
+<script src="Shoppingcartlogic.js" type="text/javascript"></script>
 </body>
 </html>

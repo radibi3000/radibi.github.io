@@ -1233,7 +1233,7 @@ color: #000000;
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
-    opacity:0%;
+    opacity:0;
 
 }
 
@@ -1607,9 +1607,9 @@ color: #FFFFFF;
     opacity: 0.2;
 }
 /* Removed button */
-.notificationdisabled{
+/* .notificationdisabled{
     opacity: 0;
-}
+} */
 
 
 
