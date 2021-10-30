@@ -1606,10 +1606,44 @@ color: #FFFFFF;
 .buttondisabled{
     opacity: 0.2;
 }
-/* Removed button */
-/* .notificationdisabled{
-    opacity: 0;
-} */
+#remove1
+{
+    background: lightblue;
+    border-radius: 61.959px;
+    position: absolute;
+    width: 95px;
+    height: 58px;
+    left: 35px;
+    top: 130px;
+    
+    font-family: "loved by the king";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #000000;
 
+}
 
+#remove2{
+    background: lightblue;
+    border-radius: 61.959px;
+    position: absolute;
+    width: 95px;
+    height: 58px;
+    left: 45px;
+    top: 130px;
+    
+    font-family: "loved by the king";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #000000;
+
+}
 
