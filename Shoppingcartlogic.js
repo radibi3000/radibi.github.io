@@ -80,15 +80,27 @@ if(quantity>1)
 // To remove items from the cart
 
 var removeCartItem = document.getElementsByClassName('Remove');
-var removesize = document.getElementById('remove1');
-var removecolor = document.getElementById('remove2');
 
-    
+for (var i =0; i < removeCartItem.length; i++){
+    var button = removeCartItem[i]
     button.addEventListener('click', function(event)
     {
      var buttonClicked = event.target
-     buttonClicked.document.removeCartItem.remove();
+     buttonClicked.parentElement.remove();
     })
+}
+
+function changePrice(){
+    
+
+}
+
+
+
+
+
+    
+   
 
 
     
