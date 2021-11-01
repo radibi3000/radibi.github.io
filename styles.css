@@ -1053,7 +1053,11 @@ color: #00A3FF;
     text-align: center;
 
         color: #000000;
-        }   
+        } 
+#small5:hover{
+    background-color: #FFE600;
+    color: #000;
+ }
 
 #medium5{
 background: #FFFFFF;
@@ -1072,6 +1076,11 @@ text-align: center;
 
 color: #000000;
     }   
+
+#medium5:hover{
+    background-color: #FFE600;
+    color: #000;
+    }
 
     
 #large5{
@@ -1096,6 +1105,11 @@ text-align: center;
 
 
 }
+
+#large5:hover{
+    background-color: #FFE600;
+    color: #000;
+ }
  #selectacolor5{
     background: #579B00;
     border-radius: 288.571px;
@@ -1137,6 +1151,11 @@ color: #FF0000;
 
 }
 
+#red5:hover{
+  background-color: #FFE600;
+  color: #FF0000;
+}
+
 #blue5{
     position: absolute;
     width: 151.32px;
@@ -1155,6 +1174,11 @@ line-height: 111px;
 text-align: center;
 
 color: #00A3FF;
+ }
+ #blue5:hover
+ {
+    background-color: #FFE600;
+    color: #00A3FF;
  }
 
 #green5{
@@ -1176,6 +1200,12 @@ text-align: center;
 
 color: #2D971C;
     }
+
+#green5:hover
+{
+    background-color: #FFE600;
+    color: #2D971C;
+ }
 
  #options5{
 
@@ -1425,6 +1455,7 @@ a:link {
     height: 640px;
     left: 341px;
     top: 305px;
+    padding-bottom: 100px;
     background: #FFFFFF;
   }
 
@@ -1520,7 +1551,7 @@ a:link {
   .vl 
   {
     border-left: 6px Solid black;
-    height: 640px;
+    height: 740px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -1581,7 +1612,7 @@ position: absolute;
 width: 150px;
 height: 73px;
 left: 945px;
-top: 566px;
+top: 667px;
 background: #F53030;
 
 font-family: "Loved by the King";
