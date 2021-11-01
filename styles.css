@@ -249,9 +249,6 @@ color: #FFFFFF;
 /* Couchpillowtext */
 
 #standardcouchpillow{
-    /* width: 243px;
-    height: 109px;
-    left: 100px; */
     display:flex;
     flex-direction:row;
     font-family: "Open Sans";
@@ -1055,7 +1052,7 @@ color: #00A3FF;
         color: #000000;
         } 
 #small5:hover{
-    background-color: #FFE600;
+    background-color: #fad980;
     color: #000;
  }
 
@@ -1078,7 +1075,7 @@ color: #000000;
     }   
 
 #medium5:hover{
-    background-color: #FFE600;
+    background-color: #fad980;
     color: #000;
     }
 
@@ -1107,7 +1104,7 @@ text-align: center;
 }
 
 #large5:hover{
-    background-color: #FFE600;
+    background-color: #fad980;
     color: #000;
  }
  #selectacolor5{
@@ -1147,13 +1144,13 @@ font-size: 64.5349px;
 line-height: 111px;
 text-align: center;
 
-color: #FF0000;
+color: #cd2026;
 
 }
 
 #red5:hover{
-  background-color: #FFE600;
-  color: #FF0000;
+  background-color: #fad980;
+  color: #cd2026;
 }
 
 #blue5{
@@ -1173,12 +1170,12 @@ font-size: 64.5349px;
 line-height: 111px;
 text-align: center;
 
-color: #00A3FF;
+color: #0071bc;
  }
  #blue5:hover
  {
-    background-color: #FFE600;
-    color: #00A3FF;
+    background-color: #fad980;
+    color: #0071bc;
  }
 
 #green5{
@@ -1198,13 +1195,13 @@ font-size: 64.5349px;
 line-height: 111px;
 text-align: center;
 
-color: #2D971C;
+color: #2e8540;
     }
 
 #green5:hover
 {
-    background-color: #FFE600;
-    color: #2D971C;
+    background-color: #fad980;
+    color: #2e8540;
  }
 
  #options5{
@@ -1676,5 +1673,37 @@ color: #FFFFFF;
     
     color: #000000;
 
+}
+
+
+#Seperator1{
+    display: block;
+    margin-top: -3.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#Seperator2{
+    display: block;
+    margin-top: 10.9em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+#Seperator4{
+    display: block;
+    margin-top: 10.9em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 

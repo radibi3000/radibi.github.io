@@ -35,14 +35,14 @@ function toNewColor(goalColorID) {
     red.style.backgroundColor="#FFFFFF";
     blue.style.backgroundColor="#FFFFFF";
     green.style.backgroundColor="#FFFFFF";
-    document.getElementById(goalColorID).style.backgroundColor="#FFE600";
+    document.getElementById(goalColorID).style.backgroundColor="#fad980";
 }
 
 function toNewSize(goalSizeID){
     small.style.backgroundColor="#FFFFFF";
     medium.style.backgroundColor="#FFFFFF";
     large.style.backgroundColor="#FFFFFF";
-    document.getElementById(goalSizeID).style.backgroundColor="#FFE600"
+    document.getElementById(goalSizeID).style.backgroundColor="#fad980"
 
 }
 
