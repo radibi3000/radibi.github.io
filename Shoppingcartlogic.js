@@ -110,10 +110,64 @@ for (var i =0; i < removeCartItem.length; i++){
     })
 }
 
-function changePrice(){
+function getsize(){
+
+var newsize = document.getElementsByClassName('newSize')
+var map
+
+for(var i = 0; i < newsize.length; i++){
+        if(newsize[i].style.backgroundColor == "#fad980"){
+            map = i
+        }
+    }
+    if (map == 0){
+        return "Small"
+    }
+    else if (map == 1 )
+        return "Medium"
+    else if (map == 2)
+        return "Large"
+}
+
+function getcolor(){
+
+    var newColor = document.getElementsByClassName('newColor')
+    var map1
     
+    for(var i = 0; i < newColor.length; i++){
+            if(newColor[i].style.backgroundColor == "#fad980"){
+                map1 = i
+            }
+        }
+        if (map1 == 0){
+            return "Small"
+        }
+        else if (map1 == 1 )
+            return "Medium"
+        else if (map1 == 2)
+            return "Large"
+    }
+
+
+localStorage.setItem()
+
+var selectedDetails = {
+    name: "Standard Couch Pillow",
+    quantity: parseInt(document.getElementById("changequantitytext").innerHTML.replace('Quantity: ','')),
+    size: getsize(),
+    color: getcolor(),
+    
+}
+
+
+var priceValue = parseInt(document.getElementById("pricetagtext").innerHTML.replace('Price: ',''))
+
+if(quantity > 1){
+    priceValue == priceValue * quantity
 
 }
+
+
 
 
 

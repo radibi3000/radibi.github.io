@@ -1286,6 +1286,28 @@ color: #000000;
 
 }
 
+.pricetag{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 1008px;
+    top: 300px;
+    background: #ffa500;
+
+}
+
+#pricetagtext{
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 86px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
 .number{
 font-family: "Loved by the King";
 font-style: normal;
@@ -1418,7 +1440,7 @@ top: 65px;
 /* Change the link color */
 
 a:link {
-    color: green;
+    color: rgb(6,69,173);
     background-color: transparent;
     text-decoration: none;
   }
