@@ -998,7 +998,7 @@ color: #00A3FF;
      left: 340px;
      top: 300px;
     }
- .standardcouchpillowFinal{
+ #standardcouchpillowFinal{
     position: absolute;
     width: 359.11px;
     height: 490.35px;
@@ -1306,6 +1306,17 @@ color: #000000;
     
     color: #000000;
 
+}
+
+.NewPrice{
+    font-family: "Loved by the King";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 86px;
+    text-align: center;
+    
+    color: #000000;
 }
 
 .number{

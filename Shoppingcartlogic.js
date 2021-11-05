@@ -71,6 +71,7 @@ function increaseQuantity(){
     quantity++;
     }
     updateQuantity();
+    changeprice();
 
 }
     
@@ -81,6 +82,7 @@ function decreaseQuantity(){
     quantity--;
     }
     updateQuantity();
+    changeprice();
 }
 
 // For the cart if you select the options and select add to cart it will provide you with a notification on how many items have
@@ -159,25 +161,34 @@ var selectedDetails = {
     
 }
 
+function changeprice(){
+var priceValue = 0.00 ;
+{
+if(document.getElementById("standardcouchpillowFinal").innerHTML == '\n    Standard Couch Pillow\n')
+    {
+    priceValue = 28.99
+    }
+else if(document.getElementById("standardcouchpillowFinal").innerHTML == '\n     Bed Pillow\n')
+    {
+    priceValue = 39.99
+}
+else if(document.getElementById("standardcouchpillowFinal").innerHTML == '\n     Round Pillow\n')
+    {
+        priceValue = 15.49
+    }
+else if(document.getElementById("standardcouchpillowFinal").innerHTML == '\n     Floor Poof Pillow\n')
+    {
+        priceValue = 24.99
+    }
 
-var priceValue = parseInt(document.getElementById("pricetagtext").innerHTML.replace('Price: ',''))
-
-if(quantity > 1){
-    priceValue == priceValue * quantity
+if(quantity >=1)
+{
+    priceValue = (priceValue * quantity).toFixed(2)
+    document.getElementById("pricetagtext").innerHTML = priceValue
 
 }
 
-
-
-
-
-
-
-    
-   
-
-
+}
     
 
- 
-
+}
