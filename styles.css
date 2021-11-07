@@ -1550,7 +1550,7 @@ a:link {
     color: #FF0000;
   }
 
-  .greenbutton{
+  #greenbutton{
  
     background: #579B00;
     border-radius: 61.959px;
@@ -1738,5 +1738,63 @@ color: #FFFFFF;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+}
+
+.cart-grid{
+    display: grid;
+    height: 100px;
+    width: 100%;
+    margin:auto;
+    grid-template-columns: [col]2fr [col]1fr [col]1fr [col]1fr [col]1fr [col]1fr;
+    grid-template-rows: [row]1fr;
+}
+
+.cart-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "loved by the king";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.cart-item.c1{
+    grid-column: col 1;
+    grid-row: row 1;
+
+}
+
+.cart-item.c2{
+    grid-column: col 2;
+    grid-row: row 1;
+
+}
+
+.cart-item.c3{
+    grid-column: col 3;
+    grid-row: row 1;
+
+}
+
+.cart-item.c4{
+    grid-column: col 4;
+    grid-row: row 1;
+
+}
+
+.cart-item.c5{
+    grid-column: col 5 ;
+    grid-row: row 1;
+
+}
+
+.cart-item.c6{
+    grid-column: col 6;
+    grid-row: row 1;
+
 }
 
