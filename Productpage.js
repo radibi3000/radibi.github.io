@@ -79,15 +79,7 @@ addToCart.addEventListener('click', () => {
 
 // To remove items from the cart
 
-var removeCartItem = document.getElementsByClassName('Remove');
-
-for (var i = 0; i < removeCartItem.length; i++) {
-    var button = removeCartItem[i]
-    button.addEventListener('click', function (event) {
-        var buttonClicked = event.target
-        buttonClicked.parentElement.remove();
-    })
-}
+// This function uses the background color of the HTML file to notify the object of what specific size was selected. 
 
 function getsize() {
 
@@ -95,7 +87,6 @@ function getsize() {
     var map
     var children = Array.from(newsize.getElementsByTagName('p'));
 
-    console.log(children)
 
     for (var i = 0; i < children.length; i++) {
         console.log(i, children[i].style)
@@ -103,7 +94,6 @@ function getsize() {
             map = i
         }
     }
-    console.log(map)
     if (map == 0) {
         return "Small"
     } else if (map == 1)
@@ -111,7 +101,7 @@ function getsize() {
     else if (map == 2)
         return "Large"
 }
-
+// This function uses the background color of the HTML file to notify the object of what specific color was selected. 
 function getcolor() {
 
     var newColor = document.getElementsByClassName('newColor')[0]
@@ -132,7 +122,7 @@ function getcolor() {
     else if (map1 == 2)
         return "Green"
 }
-
+// Creates the cartItem object
 function cartItem(pillowName, pillowQuantity, pillowColor, pillowSize, pillowPrice) {
     this.name = pillowName;
     this.quantity = pillowQuantity;
@@ -140,38 +130,23 @@ function cartItem(pillowName, pillowQuantity, pillowColor, pillowSize, pillowPri
     this.size = pillowSize;
     this.price = pillowPrice;
 }
-
+// Sets up Local Storage. 
 let storedValue = JSON.parse(localStorage.getItem("MyDetails"));
 let cart = storedValue ? storedValue : [];
 
+// pushing the array to local storage.
 function selectItems() {
     let name = document.getElementById("standardcouchpillowFinal").innerHTML;
     let quantity = parseInt(document.getElementById("changequantitytext").innerHTML.replace('Quantity: ', ''));
     let size = getsize();
     let color = getcolor();
     let price = parseFloat(document.getElementById("pricetagtext").innerHTML);
-
-    console.log("selecting item", size, color)
     let pillows = new cartItem(name, quantity, color, size, price);
     cart.push(pillows);
     var jsonDetails = JSON.stringify(cart);
     localStorage.setItem("MyDetails", jsonDetails);
 }
-
-function notWhatiWanted() {
-
-    document.getElementById("header").style.display = "none";
-    document.getElementById("greenbutton").style.display = "none"
-    document.getElementById("sizesquare").style.display = "none";
-    document.getElementById("pricetext").style.display = "none";
-    document.getElementById("pricetextstrikethrough").style.display = "none";
-    document.getElementById("totalpricetext").style.display = "none";
-    document.getElementById("colorsquare").style.display = "none";
-
-}
-
-
-
+// Augments the pricevalue depending on the quantity. 
 function changeprice() {
     var priceValue = 0.00;
 
